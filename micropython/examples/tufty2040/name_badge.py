@@ -18,7 +18,7 @@ RED = display.create_pen(200, 0, 0)
 
 # Read name from file
 try:
-    file = open("badge.txt", "r")
+    file = open("name.txt", "r")
     name = file.readline()
     file.close()
 except OSError:
